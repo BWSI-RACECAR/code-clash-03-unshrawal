@@ -9,10 +9,10 @@ class Solution:
         l2 = str2.split(" ")
         l3 = []
         for i in l1:
-            if i not in l3:
+            if i not in l3 and i != "":
                 l3.append(i)
         for i in l2:
-            if i not in l3:
+            if i not in l3 and i != "":
                 l3.append(i)
         return l3
         pass
